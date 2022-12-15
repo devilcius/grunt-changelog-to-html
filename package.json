@@ -1,0 +1,40 @@
+{
+  "name": "grunt-changelog-to-html",
+  "description": "Generates html files for changelog markdown files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/devilcius/grunt-changelog-to-html",
+  "author": {
+    "name": "Marcos",
+    "email": "devilcius@gmail.com",
+    "url": "https://github.com/devilcius"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:devilcius/grunt-changelog-to-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devilcius/grunt-changelog-to-html/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "marked": "^4.2.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "4.0.0" 
+  },
+  "keywords": [
+    "gruntplugin",
+    "spring-boot",
+    "markdown",
+    "html"
+  ]
+}
